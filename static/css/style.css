@@ -1,0 +1,67 @@
+
+@import "iconfont.css";
+@import "animate.min.css";
+
+/*-----------------------------------------------------------------------------------*/
+/* GENERAL
+/*-----------------------------------------------------------------------------------*/
+
+body{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	background: url('../img/duck.jpg') no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; 
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	color: #3a3a3a;
+	font-weight: 700;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* NAVBAR
+/*-----------------------------------------------------------------------------------*/
+
+nav.navbar{
+	position: fixed;
+	top: -5px;
+	margin-bottom: 0px;
+	padding: 10px 0px 10px 0px;
+	width: 100%;
+	border-radius: 0px;
+	transition: all 0.2s;
+	background-color: #3d5d7c;
+	opacity: 0.5;
+}
+
+.sidebar {
+	float:right;
+}
+.text-xs-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.progress {
+    margin-left: auto;
+    margin-right: auto;	
+}
+.col-xs-6 {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.col-lg-4 {
+    margin-left: auto;
+    margin-right: auto;
+    float:left;
+}
